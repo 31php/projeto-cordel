@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root{
-    --fontConteudo: "Sriracha", cursive;
+    --fontConteudo: "Open Sans", sans-serif;
 }
 @font-face{
     font-family: 'fonteh1';
@@ -45,7 +45,8 @@ section{
     padding-left: 30px;
     line-height: 5vw;
 
-    font-family: 'fonteh1';
+    font-family: var(--fontConteudo);
+    font-style: italic;
     font-size: 1.5em;
 }
 section > p{
