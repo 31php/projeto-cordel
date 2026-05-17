@@ -4,3 +4,58 @@
     font-family: 'fonteh1';
     src: url('../fontes/xilosa_.ttf') format(truetype);    
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100%;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-family: 'fonteh1';
+    font-variant: small-caps;
+    font-size: 5em;
+}
+header > a > p{
+    font-family: 'fonteh1';
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(87, 86, 86);
+    color: white;
+}
+section.imagem > p{
+    width: 300px;
+    background-color: rgba(54, 53, 53, 0.308);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
