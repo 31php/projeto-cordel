@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: 'fonteh1';
+    src: url('../fontes/xilosa_.ttf') format(truetype);    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 50px;    
+}
